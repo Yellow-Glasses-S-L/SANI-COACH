@@ -1,0 +1,23 @@
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Dependencias y builds
+node_modules/
+dist/
+build/
+.vite/
+
+# Sistema / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Claude local
+.claude/settings.local.json
